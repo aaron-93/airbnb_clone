@@ -11,6 +11,7 @@ black = "*"
 [packages]
 django = "*"
 black = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.8"
