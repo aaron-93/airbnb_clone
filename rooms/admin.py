@@ -88,6 +88,8 @@ class RoomAdmin(admin.ModelAdmin):
     def count_photos(self, obj):
         return obj.photos.count()
 
+    count_photos.short_description = "Photo Count"
+
     list_filter = (
         "instant_book",
         "room_type",
